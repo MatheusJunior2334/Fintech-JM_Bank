@@ -1,0 +1,21 @@
+#section1 {
+    padding-top: 85px;
+}
+
+#section1 article {
+    display: flex;
+}
+
+#section1_part1 {
+    width: 40%;
+    height: 700px;
+}
+
+#section1_part2 {
+    width: 60%;
+    height: 700px;
+    background-image: url(../Images/Mulher_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
