@@ -1,3 +1,8 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 #section1 {
     padding-top: 85px;
 }
@@ -8,12 +13,55 @@
 
 #section1_part1 {
     width: 40%;
-    height: 700px;
+    height: 600px;
+}
+
+#main_text {
+    width: 85%;
+    margin: auto;
+    text-align: left;
+    padding-top: 40px;
+}
+
+#main_text h1 {
+    font-size: 60px;
+    font-family: montserrat;
+    font-weight: normal;
+}
+
+.text_color {
+    color: #02A2C6;
+}
+
+#main_text p {
+    font-size: 25px;
+    font-family: montserrat;
+    margin-top: 25px;
+}
+
+#main_button {
+    display: flex;
+}
+
+#main_button button {
+    font-size: 25px;
+    font-family: arial;
+    color: #fff;
+    background-color: #02A2C6;
+    margin: auto;
+    margin-top: 20px;
+    padding: 8px 10%;
+    border-radius: 10px;
+    transition: ease-out 0.4s;
+}
+
+#main_button button:hover {
+    transform: scale(1.05, 1.05);
 }
 
 #section1_part2 {
     width: 60%;
-    height: 700px;
+    height: 600px;
     background-image: url(../Images/Mulher_1.jpg);
     background-size: cover;
     background-repeat: no-repeat;

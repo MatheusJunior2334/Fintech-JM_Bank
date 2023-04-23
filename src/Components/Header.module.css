@@ -68,6 +68,7 @@ p, button {
 #abrir:hover {
     background-color: #fff;
     color: #02A2C6;
+    border: 1px solid #02A2C6;
 }
 
 #acessar {
@@ -80,4 +81,5 @@ p, button {
 #acessar:hover {
     background-color: #02A2C6;
     color: #fff;
+    border: 0;
 }
