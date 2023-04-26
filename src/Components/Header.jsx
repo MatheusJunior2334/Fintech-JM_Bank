@@ -1,26 +1,28 @@
-import style from './Header.module.css';
+import style from '../CSS/Header.module.css';
 
 function Header() {
     return (
         <header>
             <div id={style.header_part1}></div>
             <div id={style.header_part2}>
-                <div>
-                    <p>Home</p>
-                    <p>Serviços</p>
-                    <p>Sobre Nós</p>
-                    <p>Fale Conosco</p>
-                </div>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Serviços</li>
+                        <li>Sobre Nós</li>
+                        <li>Fale Conosco</li>
+                    </ul>
+                </nav>
             </div>
             <div id={style.header_part3}>
-                <div>
+                <nav>
                     <div>
                         <button id={style.abrir}>Abra sua Conta</button>
                     </div>
                     <div>
                         <button id={style.acessar}>Acessar</button>
                     </div>
-                </div>
+                </nav>
             </div>
         </header>
     )

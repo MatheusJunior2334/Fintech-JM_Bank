@@ -6,7 +6,13 @@
   border: 0;
 }
 
+@font-face {
+  font-family: montserrat;
+  src: url(./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
 .App {
   width: 100%;
   height: auto;
 }
+
