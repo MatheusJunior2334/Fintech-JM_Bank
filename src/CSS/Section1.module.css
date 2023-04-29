@@ -29,6 +29,7 @@
     font-family: montserrat;
     font-weight: normal;
     text-align: left;
+    margin-bottom: 35px;
 }
 
 .text_color {
@@ -38,7 +39,6 @@
 #main_initial p {
     font-size: 25px;
     font-family: montserrat;
-    margin-top: 35px;
     text-align: left;
 }
 
@@ -49,9 +49,13 @@
     background-color: #02A2C6;
     margin: auto;
     margin-top: 10%;
-    padding: 8px 12%;
+    padding: 0px 10%;
     border-radius: 10px;
     transition: ease-out 0.4s;
+}
+
+#main_initial button p {
+    padding: 8px;
 }
 
 #main_initial button:hover {

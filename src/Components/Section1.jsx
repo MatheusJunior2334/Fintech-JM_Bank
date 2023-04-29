@@ -11,7 +11,7 @@ function Section1() {
                     <div id={style.main_initial}>
                         <h1>Venha <span className={style.text_color}>facilitar</span> e <span className={style.text_color}>otimizar</span> as suas finanças conosco</h1>
                         <p>Descubra melhores maneiras de agilizar as suas transações econômicas em todos os sentidos</p>
-                        <button>Abra sua Conta</button>
+                        <button><p>Abra sua Conta</p></button>
                     </div>
                 </div>
                 <div id={style.section1_part2}>

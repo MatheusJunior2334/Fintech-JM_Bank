@@ -12,7 +12,7 @@
 
 #section4_part1 {
     width: 45%;
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,9 +24,13 @@
     height: auto;
 }
 
+#section4_img_responsivo {
+    display: none;
+}
+
 #section4_part2 {
     width: 50%;
-    height: 100%;
+    height: auto;
     margin: auto;
 }
 
@@ -55,20 +59,199 @@
     justify-content: space-between;
 }
 
+.blocos img {
+    width: 55px;
+    height: 55px;
+    margin: auto;
+}
+
+.blocos label {
+    font-size: 20px;
+    padding: 22px 0;
+    font-family: arial;
+    display: inline-block;
+    margin: auto;
+    cursor: pointer;
+}
+
 .blocos_blue {
     width: 47%;
-    height: 125px;
+    height: auto;
     background-color: #02A2C6;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.blocos_blue:hover {
+    transform: scale(1.02, 1.02);
+}
+
+.blocos_blue div {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #fff;
 }
 
 .blocos_white {
     width: 47%;
-    height: 125px;
+    height: auto;
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.blocos_white div {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #000000;
+}
+
+.blocos_white:hover {
+    transform: scale(1.02, 1.02);
+}
+
+/*Responsivo Section4 */
+
+/*Reponsivo Laptop*/
+
+@media only screen and (max-width:1280px) {
+
+    #section4 article {
+        height: auto;
+    }
+
+    #section4_part1 img {
+        width: 45vw;
+        justify-content: center;
+    }
+
+    #section4_part2 h1 {
+        font-size: 4.5vw;
+    }
+
+    #section4_part2 p {
+        font-size: 2.5vw;
+    }
+
+    #section4_part2 label {
+        font-size: 2vw;
+        padding: 15px 0;
+    }
+
+    .blocos_blue {
+        width: 49%;
+    }
+
+    .blocos_white {
+        width: 49%;
+    }
+}
+
+/*Responsivo Tablet*/
+
+@media only screen and (max-width:768px) {
+
+    #section4_part1 {
+        display: none;
+    }
+
+    #section4_part2 {
+        width: 80%;
+    }
+
+    #section4_part2 h1 {
+        width: 95%;
+        font-size: 42px;
+        margin: auto;
+    }
+
+    #section4_part2 p {
+        width: 95%;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    #section4_part2 label {
+        font-size: 16px;
+    }
+
+    #section4_img_responsivo {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    #section4_img_responsivo img {
+        width: 95%;
+    }
+
+    .blocos img {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .blocos_blue {
+        width: 48%;
+        margin: 15px 0;
+    }
+
+    .blocos_white {
+        width: 48%;
+        margin: 15px 0;
+    }
+}
+
+/*Responsivo Celular*/
+
+@media only screen and (max-width:480px) {
+
+    #section4_part2 {
+        width: 95%;
+    }
+
+    #section4_part2 label {
+        display: none;
+    }
+
+    .blocos {
+        width: 95%;
+        margin: auto;
+    }
+
+    .blocos img {
+        width: 60px;
+        height: 60px;
+        padding: 10px 0;
+    }
+
+    .blocos_blue {
+        display: block;
+        width: 45%;
+    }
+
+    .blocos_white {
+        display: block;
+        width: 45%;
+    }
 }
