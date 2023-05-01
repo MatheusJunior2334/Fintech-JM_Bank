@@ -1,0 +1,177 @@
+#section3 {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(90deg, #0298C2 0%, #8C634A 58.26%);
+}
+
+#section3 article {
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+#section3_part1 {
+    width: 52%;
+    height: 100%;
+    display: flex;
+}
+
+#section3_part1 div {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+#section3_part1 h1 {
+    color: #fff;
+    font-size: 55px;
+    font-family: montserrat;
+    font-weight: normal;
+    text-align: left;
+}
+
+#section3_part1 p {
+    color: #fff;
+    font-size: 25px;
+    font-family: montserrat;
+    margin-top: 5%;
+    text-align: left;
+}
+
+#section3_part1 button {
+    width: 40%;
+    font-size: 27px;
+    font-family: arial;
+    padding: 10px 0;
+    color: #02A2C6;
+    border-radius: 10px;
+    margin-top: 15%;
+    transition: all 0.3s;
+}
+
+#section3_part1 button:hover {
+    transform: translateY(-5%);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    background-color: #02A2C6;
+    color: #fff;
+}
+
+.text_color {
+    color: #00D2FF;
+}
+
+#section3_part2 {
+    width: 48%;
+    height: 100%;
+    background-image: url(../Images/MiAlves_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section3_part2 p {
+    font-size: 18px;
+    padding: 5px 15px;
+    float: right;
+}
+
+/*Reponsivo*/
+
+/*Responsivo Laptop*/
+
+@media only screen and (max-width:1280px) {
+    
+    #section3 article {
+        height: auto;
+    }
+
+    #section3_part1 {
+        height: auto;
+        padding: 35px 0
+    }
+
+    #section3_part1 h1 {
+        font-size: 42px;
+    }
+
+    #section3_part1 p {
+        font-size: 22px;
+    }
+
+    #section3_part1 button {
+        width: 50%;
+        font-size: 22px;
+        margin-top: 8%;
+    }
+
+    #section3_part2 {
+        height: auto;
+    }
+}
+
+/*Responsivo Tablet*/
+
+@media only screen and (max-width:768px) {
+
+    #section3 {
+        background: linear-gradient(178.84deg, #0298C2 1.26%, #8C634A 91.03%);
+    }
+
+    #section3 article {
+        margin: auto;
+        flex-direction: column;
+        padding: 35px 0;
+    }
+
+    #section3_part1 {
+        padding: 0 0 15px 0;
+    }
+
+    #section3_part1 h1 {
+        font-size: 34px;
+    }
+
+    #section3_part1 p {
+        font-size: 20px;
+    }
+
+    #section3_part1 button {
+        width: 65%;
+        font-size: 20px;
+    }
+
+    #section3_part1, #section3_part2 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .text_color {
+        color: #183153;
+    }
+
+    #section3_part2 {
+        height: 650px;
+    }
+}
+
+/*Responsivo Celular*/
+
+@media only screen and (max-width:480px) {
+
+    #section3 article {
+        width: 95%;
+    }
+
+    #section3_part1 p {
+        font-size: 18px;
+    }
+
+    #section3_part1 button {
+        width: 75%;
+        font-size: 18px;
+    }
+
+    #section3_part2 {
+        height: 550px;
+    }
+}
