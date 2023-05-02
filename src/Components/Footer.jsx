@@ -1,3 +1,4 @@
+//import { Link } from 'react-router-dom';
 import style from '../CSS/Footer.module.css';
 
 import instagram_footer from '../Images/Instagram_footer.png';

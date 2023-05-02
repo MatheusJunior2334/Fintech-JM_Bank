@@ -10,11 +10,11 @@ import Footer from './Components/Footer';
 function App() {
   return (
     <main className="App">
-      <Header />
-      <Section1 />
-      <Section3 />
-      <Section4 />
-      <Footer />
+        <Header />
+        <Section1 />
+        <Section3 />
+        <Section4 />
+        <Footer />
     </main>
   );
 }
