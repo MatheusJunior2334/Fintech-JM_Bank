@@ -11,6 +11,11 @@
   src: url(./Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: rival_sans;
+  src: url(./Fonts/Demo_Fonts/Fontspring-DEMO-rivalsans-regular.otf);
+}
+
 .App {
   width: 100%;
   height: auto;

@@ -6,16 +6,38 @@ header {
     flex-direction: row;
     background-color: #fff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    z-index: 3;
 }
 
-li, button {
+header li, button {
     font-family: arial;
     cursor: pointer;
 }
 
 #header_part1 {
     width: 30%;
-    background-color: rgb(241, 167, 69);
+}
+
+#header_part1 div {
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+#header_part1 h1 {
+    font-size: 40px;
+    font-family: rival_sans;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.75);
+    display: inline-block;
+    justify-content: center;
+}
+
+.logo_color {
+    color: #006CFF;
 }
 
 #header_part2 {

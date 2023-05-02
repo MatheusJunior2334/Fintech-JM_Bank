@@ -1,7 +1,7 @@
 #section1 {
     width: 100%;
     height: auto;
-    padding-top: 55px;
+    padding: 80px 0 50px 0;
 }
 
 #section1 article {
@@ -91,7 +91,7 @@
     margin-bottom: 25px;
     margin-right: 40px;
     border-radius: 10px;
-    z-index: 5;
+    z-index: 1;
 }
 
 #central_ajuda div {
@@ -106,7 +106,7 @@
 }
 
 #central_ajuda p {
-    font-size: 18px;
+    font-size: 17px;
     color: #fff;
     font-family: arial;
     padding: 0 12px;
@@ -161,7 +161,6 @@
 
     #section1_part1 {
         width: 100%;
-        padding: 0 0 10% 0;
     }
 
     #section1_part2 {
@@ -192,7 +191,7 @@
         left: 50%;
         transform: translateX(-50%);
         margin-bottom: 1%;
-        z-index: 5;
+        z-index: 1;
     }
 
     #main_initial button p {

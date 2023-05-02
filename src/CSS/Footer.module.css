@@ -1,0 +1,223 @@
+footer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #183153;
+    z-index: 2;
+}
+
+footer nav {
+    width: 88%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer_superior {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+#secao_1 {
+    width: auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px 0;
+}
+
+#secao_1 h2 {
+    font-family: rival_sans;
+    font-size: 40px;
+    font-weight: normal;
+    letter-spacing: 0.08em;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #f1f1f1;
+}
+
+#secao_1 h6 {
+    font-size: 15px;
+    font-family: arial;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#redes_sociais {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#redes_sociais img {
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#redes_sociais img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.demais_secoes {
+    width: auto;
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.demais_secoes h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.demais_secoes ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.demais_secoes li {
+    display: flex;
+    width: auto;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.demais_secoes li:hover {
+    text-decoration: underline;
+}
+
+#seta {
+    width: auto;
+    align-self: self-end;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+}
+
+#seta:hover {
+    transform: translateY(-10%);
+}
+
+#footer_inferior {
+    width: 100%;
+    height: auto;
+    border-top: 1px solid #fff;
+}
+
+#footer_inferior h6 {
+    font-size: 15px;
+    font-family: arial;
+    font-weight: normal;
+    letter-spacing: 0.4px;
+    text-align: center;
+    color: #fff;
+    padding: 15px 0;
+}
+
+/*Responsivo*/
+
+/*Responsivo Laptop*/
+
+@media only screen and (max-width:1280px) {
+    
+    footer nav {
+        width: 70%;
+    }
+
+    #footer_superior {
+        flex-direction: column;
+    }
+
+    #secao_1 h2 {
+        font-size: 60px;
+        text-align: left;
+    }
+
+    #secao_1 h6 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    #redes_sociais {
+        width: 50%;
+    }
+
+    #redes_sociais img {
+        width: 50px;
+    }
+
+    .demais_secoes h3 {
+        font-size: 30px;
+    }
+
+    .demais_secoes li {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    #seta {
+        position: absolute;
+        right: 15%;
+        bottom: 6%;
+    }
+
+    #footer_inferior h6 {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+
+    footer nav {
+        width: 85%;
+    }
+
+    #redes_sociais {
+        width: 55%;
+    }
+
+    #seta {
+        right: 7.5%;
+    }
+}
+
+@media only screen and (max-width:480px) {
+
+    footer nav {
+        width: 90%;
+    }
+
+    #seta {
+        right: 5%;
+    }
+
+    #secao_1 h2 {
+        font-size: 40px;
+    }
+
+    #secao_1 h6 {
+        font-size: 18px;
+    }
+
+    #redes_sociais {
+        width: 75%;
+    }
+
+    .demais_secoes h3 {
+        font-size: 25px;
+    }
+
+    .demais_secoes li {
+        font-size: 20px;
+    }
+
+    #footer_inferior h6 {
+        font-size: 18px;
+    }
+}

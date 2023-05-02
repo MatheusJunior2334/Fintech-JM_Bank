@@ -3,7 +3,11 @@ import style from '../CSS/Header.module.css';
 function Header() {
     return (
         <header>
-            <div id={style.header_part1}></div>
+            <div id={style.header_part1}>
+                <div>
+                    <h1>J<span className={style.logo_color}>M</span> Bank</h1>
+                </div>
+            </div>
             <div id={style.header_part2}>
                 <nav>
                     <ul>
