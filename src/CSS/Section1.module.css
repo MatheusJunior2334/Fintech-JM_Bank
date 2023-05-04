@@ -1,7 +1,17 @@
+@keyframes efeito_1 {
+    from {
+        transform: scale(1.04, 1.04);
+    }
+
+    to {
+        transform: scale(1, 1);
+    }
+}
+
 #section1 {
     width: 100%;
     height: auto;
-    padding: 80px 0 50px 0;
+    padding: 6% 0 3% 0;
 }
 
 #section1 article {
@@ -58,6 +68,7 @@
 
 #main_initial button p {
     padding: 8px;
+    font-family: arial;
 }
 
 #main_initial button:hover {
@@ -66,7 +77,7 @@
 
 #section1_part2 {
     width: 55%;
-    height: 100%;
+    height: auto;
 }
 
 #mulher_1_responsivo {
@@ -121,6 +132,15 @@
 
 /*Responsivo Section1*/
 
+
+@media only screen and (min-width:1400px) {
+    
+    #mulher_1 img {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 /*Responsivo Laptop*/
 
 @media only screen and (max-width:1280px) {
@@ -173,7 +193,7 @@
     }
 
     #main_initial h1 {
-        font-size: 34px;
+        font-size: 40px;
     }
 
     #main_initial p {
@@ -188,10 +208,14 @@
         position: fixed;
         width: 65%;
         bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
+        left: 17.5%;
         margin-bottom: 1%;
         z-index: 1;
+        animation-name: efeito_1;
+        animation-duration: 3s;
+        animation-timing-function: linear;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: infinite;
     }
 
     #main_initial button p {
@@ -207,7 +231,6 @@
         flex-direction: column;
         justify-content: center;
     }
-
 }
 
 /*Responsivo Celular*/
@@ -224,5 +247,6 @@
 
     #main_initial button {
         width: 85%;
+        left: 7.5%;
     }
 }

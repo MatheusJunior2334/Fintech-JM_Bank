@@ -135,12 +135,12 @@ footer nav {
     }
 
     #secao_1 h2 {
-        font-size: 60px;
+        font-size: 42px;
         text-align: left;
     }
 
     #secao_1 h6 {
-        font-size: 22px;
+        font-size: 20px;
         text-align: left;
     }
 
@@ -153,11 +153,11 @@ footer nav {
     }
 
     .demais_secoes h3 {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .demais_secoes li {
-        font-size: 25px;
+        font-size: 22px;
         margin-bottom: 10px;
     }
 
@@ -178,8 +178,20 @@ footer nav {
         width: 85%;
     }
 
+    #secao_1 h2 {
+        font-size: 40px;
+    }
+
     #redes_sociais {
         width: 55%;
+    }
+    
+    .demais_secoes h3 {
+        font-size: 25px;
+    }
+
+    .demais_secoes li {
+        font-size: 22px;
     }
 
     #seta {
@@ -210,7 +222,7 @@ footer nav {
     }
 
     .demais_secoes h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .demais_secoes li {

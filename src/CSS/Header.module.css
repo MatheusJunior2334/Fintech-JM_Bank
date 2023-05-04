@@ -60,7 +60,6 @@ header li, button {
 
 #header_part2 li {
     font-size: 18px;
-    transition: 1s;
     list-style: none;
 }
 
@@ -79,7 +78,7 @@ header li, button {
     flex-direction: row;
     justify-content: left;
     gap: 15px;
-    padding: 22px 0;
+    padding: 5.5% 0;
 }
 
 #header_part3 div {

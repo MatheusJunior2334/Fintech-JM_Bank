@@ -13,7 +13,7 @@ function Header() {
                     <ul>
                         <li>Home</li>
                         <li>Serviços</li>
-                        <li>Sobre Nós</li>
+                        <li>Benefícios</li>
                         <li>Fale Conosco</li>
                     </ul>
                 </nav>
