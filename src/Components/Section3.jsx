@@ -12,7 +12,7 @@ function Section3() {
                     </div>
                 </div>
                 <div id={style.section3_part2}>
-                    <p>Instagram: Mi Alves</p>
+                    <p>Instagram: Mi Alves & Ruby Granger</p>
                 </div>
             </article>
         </section>
