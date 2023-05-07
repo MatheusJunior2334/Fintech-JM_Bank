@@ -10,7 +10,6 @@
 Esse projeto faz parte da UC3, um projeto de uma Fintech realizada em React JS, ministrado pela Professora Débora no Instituto PROA;
 
 <br>
-<br>
 
 Direitos de imagens utilizadas no projeto: 22 Rubis - Mi Alves - Ruby Granger
 </p>
