@@ -1,3 +1,17 @@
+/*Efeitos*/
+
+@keyframes left1 {
+    from {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
 @keyframes efeito_1 {
     from {
         transform: scale(1.04, 1.04);
@@ -25,6 +39,9 @@
     height: 100%;
     display: flex;
     justify-content: center;
+    animation-name: left1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
 }
 
 #main_initial {
@@ -64,6 +81,7 @@
     padding: 0px 10%;
     border-radius: 10px;
     transition: ease-out 0.4s;
+   
 }
 
 #main_initial button p {
@@ -90,6 +108,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    animation-name: left1;
+    animation-timing-function: ease-out;
+    animation-duration: 1s;
 }
 
 #central_ajuda {
