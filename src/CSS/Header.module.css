@@ -118,12 +118,109 @@ header li, button {
     border: 0;
 }
 
+#menu_hamburger {
+    display: none;
+}
+
+#menuToggle {
+    position: relative;
+	display: block;
+	-webkit-user-select: none;
+	user-select: none;
+    z-index: 1;
+}
+
+#menuToggle input {
+    position: absolute;
+	display: block;
+	width: 40px;
+	height: 32px;
+    margin-top: 1px;
+	cursor: pointer;
+	opacity: 0;
+	z-index: 2;
+	-webkit-touch-callout: none;
+}
+
+#menuToggle span {
+	display: block;
+	width: 33px;
+	height: 4px;
+    margin-bottom: 5px;
+	background: #000000;
+	border-radius: 3px;
+	transform-origin: 4px 0px;
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+	background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+	opacity 0.55s ease;
+    z-index: 15;
+}
+
+#menuToggle span:first-child {
+	transform-origin: 0% 0%;
+}
+
+#menuToggle span:nth-last-child(2) {
+	transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked~span {
+	opacity: 1;
+	transform: rotate(45deg) translate(-2px, -1px);
+	background: #000000;
+}
+
+#menuToggle input:checked~span:nth-last-child(3) {
+	opacity: 0;
+	transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked~span:nth-last-child(2) {
+	opacity: 1;
+	transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menu {
+	position: fixed;
+    background-color: #ffffff;
+	width: 320px;
+    height: auto;
+    overflow-y: scroll;
+	padding: 25px;
+    border-radius: 15px;
+	right: -150px;
+    top: 50px;
+    z-index: -1;
+	list-style-type: none;
+	-webkit-font-smoothing: antialiased;
+	transform-origin: 0% 0%;
+	transform: translateX(100%);
+	transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+}
+
+#menu li {
+	padding: 20px 0 20px 20px;
+	font-size: 22px;
+    border-top: 0.5px solid #c0c0c0;
+}
+
+#menuToggle input:checked~ul {
+	transform: scale(1.0, 1.0);
+	opacity: 1;
+}
+
+#acessar2 {
+    background-color: #f2f2f2;
+    color: #006CFF;
+    border-left: 0.5px solid #c0c0c0;
+}
+
 /*Responsivo Header*/
 
 /*Responsivo Laptop*/
 
 @media only screen and (max-width:1280px) {
-    
+
     #header_part1 {
         width: 20%;
     }
@@ -150,11 +247,66 @@ header li, button {
         width: 35%;
     }
 
-    #header_part3 nav {
-        width: 95%;
-    }
-
     #header_part3 button {
         font-size: 15px;
+    }
+}
+
+/*Responsivo Tablet*/
+
+@media only screen and (max-width:768px) {
+
+    #header_part1 {
+        width: 40%;
+        padding: 15px 0;
+    }
+
+    #header_part2 {
+        display: none;
+    }
+
+    #header_part3 {
+        width: 60%;
+    }
+
+    #header_part3 nav {
+        width: 15%;
+        float: right;
+    }
+
+    .abrir_acessar {
+        display: none;
+    }
+
+    #menu_hamburger {
+        display: block;
+        margin-right: 0;
+    }
+}
+
+/*Responsivo Celular */
+
+@media only screen and (max-width:480px) {
+
+    #header_part1 {
+        width: 50%;
+        padding: 18px 0;
+    }
+
+    #header_part3 {
+        width: 50%;
+    }
+
+    #header_part3 nav {
+        width: 25%;
+    }
+
+    #menu {
+        width: 300px;
+        padding: 20px;
+    }
+
+    #menu li {
+        font-size: 20px;
     }
 }

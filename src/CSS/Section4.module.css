@@ -176,7 +176,7 @@
     }
 
     #section4_part2 {
-        width: 80%;
+        width: 90%;
     }
 
     #section4_part2 h1 {
@@ -205,6 +205,11 @@
 
     #section4_img_responsivo img {
         width: 95%;
+    }
+
+    .blocos {
+        width: 95%;
+        margin: auto;
     }
 
     .blocos img {

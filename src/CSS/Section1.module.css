@@ -185,6 +185,10 @@
 
 @media only screen and (max-width:768px) {
 
+    #section1 {
+        padding: 18% 0 3% 0;
+    }
+
     #section1_part1 {
         width: 100%;
     }
@@ -242,6 +246,10 @@
 /*Responsivo Celular*/
 
 @media only screen and (max-width:480px) {
+
+    #section1 {
+        padding: 23% 0 3% 0;
+    }
 
     #main_initial {
         width: 95%;

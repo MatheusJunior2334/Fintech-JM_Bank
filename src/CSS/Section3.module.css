@@ -183,6 +183,10 @@
         margin: auto;
     }
 
+    #section3_part1 div {
+        width: 95%;
+    }
+
     .text_color {
         color: #183153;
     }
@@ -209,7 +213,12 @@
         font-size: 18px;
     }
 
+    #section3_part1 {
+        width: 95%;
+    }
+
     #section3_part2 {
+        width: 95%;
         height: 550px;
     }
 }
