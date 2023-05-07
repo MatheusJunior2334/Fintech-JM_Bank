@@ -39,9 +39,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    animation-name: left1;
-    animation-timing-function: ease-in-out;
-    animation-duration: 1s;
+    animation: left1 1s ease-in-out;
 }
 
 #main_initial {
@@ -233,6 +231,7 @@
 
     #mulher_1_responsivo {
         display: block;
+        margin-top: 25px;
     }
 
     #main_initial button {
