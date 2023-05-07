@@ -42,7 +42,7 @@ Direitos de imagens utilizadas no projeto: 22 Rubis - Mi Alves - Ruby Granger
 
 <p align="center">Clique nas Imagens para acessar o link da plataforma, do Figma ou do meu Linkedin Pessoal:
     <br> <br>
-    <a href="https://fintech-jm-bank.vercel.app/" target="_blank"> <img src="src/Images/JM Bank logo.png" alt ="site da Phytoterapica original" width="50">
+    <a href="https://fintech-jm-bank.vercel.app/" target="_blank"> <img src="src/Images/JMBank_logo.png" alt ="site da Phytoterapica original" width="50">
     </a>
     <a href="https://www.figma.com/file/5ZqZ4HioIkjCGoHhgENBVN/Fintech?type=design&node-id=0%3A1&t=F5TnK9aHUEgmfOxf-1" target="_blank"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="figma" width="50" height="50" />   
     <a href="https://www.linkedin.com/in/matheus-j%C3%BAnior-770746235/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" width="50" height="50"/>
