@@ -46,6 +46,7 @@ function Footer() {
                             <li>Política de Privacidade</li>
                             <li>Termos de Uso</li>
                             <li>Trabalhe Conosco</li>
+                            <li>Nosso Blog</li>
                         </ul>
                     </div>
                     <div id={style.seta}>
