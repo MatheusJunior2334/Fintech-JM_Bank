@@ -2,7 +2,7 @@
           
 # JM Bank - Fintech realizada em React JS
 <img src="src/Images/JM Bank img.png">
-<p align="left">Uma Fintech intitulada de JM Bank criada por mim (Matheus Júnior), sendo relacionada a um banco fictício feito para os jovems e para aqueles que tem dificuldade de organizar as suas finanças com sabedoria e segurança
+<p align="left">Uma Fintech intitulada de JM Bank criada por mim (Matheus Júnior), sendo relacionada a um banco fictício feito para os jovens e para aqueles que tem alguma dificuldade de organizar as suas finanças com sabedoria e segurança.
 
 <br>
 <br>
